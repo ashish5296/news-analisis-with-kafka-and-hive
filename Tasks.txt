@@ -1,0 +1,16 @@
+The aim of the project is to run a pipeline and be able to extract useful information from the article object that is returned.
+
+1. Get NewsAPI and run analysis in Jupyter Notebook
+NewsAPI is a company that has archive of open source news articles from different sources. You can get a free API token to retrieve articles. With the free tier, there are limitation of 100 calls per day and you can only get articles for the past month but this is not an issue for this academic project.
+
+2. Setup Kafka producer to ingest articles
+Run sentiment analysis in the fetched articles in the producer.
+
+3. Setup Kafka consumer to read data
+The read article data is saved to Linux file and then into HDFS using -copyFromLocal 
+
+4. Use Apache Hive to gain insights
+Create table in Hive and gain insights.
+
+
+
