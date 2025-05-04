@@ -31,3 +31,7 @@ Uploads it to HDFS using hdfs dfs -copyFromLocal.
 ### Apache Hive
 Creates Hive tables using data stored in HDFS.
 Executes SQL queries to gain insights from the dataset.
+
+# YouTube walkthrough
+https://www.youtube.com/watch?v=vDB0UouVvhk 
+
