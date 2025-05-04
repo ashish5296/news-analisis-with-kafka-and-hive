@@ -15,20 +15,19 @@ NewsAPI
 Jupyter Notebook
 
 ## Pipeline Workflow
-Fetch News Articles
+### Fetch News Articles
 Use NewsAPI to collect recent articles in Python.
 Free tier limits: 100 API calls/day, last 30 days.
 
-## Kafka Producer
+### Kafka Producer
 Streams article data into a Kafka topic.
 Runs sentiment analysis with TextBlob.
 
-## Kafka Consumer
+### Kafka Consumer
 Reads the article data.
 Saves the result to a local file.
 Uploads it to HDFS using hdfs dfs -copyFromLocal.
 
-## Apache Hive
+### Apache Hive
 Creates Hive tables using data stored in HDFS.
 Executes SQL queries to gain insights from the dataset.
-
